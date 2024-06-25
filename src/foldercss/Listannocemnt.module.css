@@ -1,0 +1,41 @@
+/* ListAnnouncement.module.css */
+.container {
+    max-width: 80%;
+    margin-top: 20px;
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardHeader {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .cardBody {
+    padding: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .theadDark {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .alert {
+    text-align: center;
+  }
+  
+  .spinnerContainer {
+    text-align: center;
+    margin-top: 50px;
+  }
+  

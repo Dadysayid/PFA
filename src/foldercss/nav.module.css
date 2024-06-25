@@ -1,0 +1,87 @@
+/* nav.module.css */
+
+/* Style pour le bouton de l'utilisateur */
+.user {
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+  }
+  /* Dans ton fichier nav.module.css */
+
+.user-toggle {
+    margin-left: auto !important;
+  }
+  
+  
+  /* Style pour l'image de l'utilisateur */
+  .user-image {
+    width: 50px; /* Ajuste la taille selon tes besoins */
+    height: 50px; /* Ajuste la taille selon tes besoins */
+    border-radius: 50%;
+  }
+  
+  /* Style pour l'icône du bouton de l'utilisateur */
+  .user-image-icon {
+    font-size: 1.5rem; /* Ajuste la taille selon tes besoins */
+  }
+  
+  /* Style pour le menu déroulant */
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+  }
+  
+  /* Style pour les éléments du menu déroulant */
+  .dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+  }
+  
+  .dropdown-item:hover,
+  .dropdown-item:focus {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #f8f9fa;
+  }
+  
+  /* Style pour l'icône à l'intérieur du bouton de déconnexion */
+  .material-icons {
+    font-family: "Material Icons";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+  }
+  
